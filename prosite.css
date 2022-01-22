@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: black;
+    font-family: sans-serif;
+}
+header{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("Background Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+nav{
+    width: 100vh;
+}
+ul{
+    list-style: none;
+    margin-left: auto;
+}
+li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 12px;
+}
+.container{
+    height:115px ;
+    width: 100%;
+    display: flex;
+}
+.log{
+    width: 35%;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men{
+    width: 65%;
+    height: 112px;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.men1{
+    text-align: center;
+}
+.saxeli{
+    height: 585px;
+    display: block;
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+}
+.te1{
+    font-size: 29px;
+}
+.te2{
+    text-transform: uppercase;
+    font-size: 56px;
+}
+.knopka{
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.services{
+    height: 225px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.nacrisferisat{
+    color: #898989;
+    font-size: 19px;
+}
+.servsat{
+    font-size: 41px;
+    margin-top: 75px;
+}
+.ragacinfo{
+    display: flex;
+    justify-content: space-around;
+    height: 345px;
+}
+.suraticn{
+    width: 70px;
+}
+.servsax{
+    color: black;
+    font-size: 22px;
+}
+.ecom{
+    display: block;
+    text-align: center;
+}
+.nactxt{
+    color:#898989 ;
+    width: 255px;
+}
+.portfolio{
+    height: 1275px;
+    background-color: #f7f7f7;
+}
+.portsat{
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+    padding: 90px;
+}
+.servsax1{
+    text-transform: uppercase;
+    color: black;
+    font-size:37pt ;
+}
+.nactxt1{
+    color:#898989 ;
+    width: 255px;
+    font-size: 17pt;
+}
+.portfolioinfo1{
+    height: 390px;
+    width: 288px;
+    background-color: white;
+    text-align: center;
+}
+.portimg{
+    width: 288px;
+    height: 300px;
+}
+.portfoliossat{
+    color: black;
+    font-size: 22px;
+}
+.portfoliotxt{
+    color: #898989;
+}
+.port1xazi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.port2xazi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: #898989;
+}
+.knopka:hover{
+    width: 270px;
+    font-size: 24px;
+    background-color: #a7a3a3;
+    border-radius: 8px;
+}
+.team{
+    height: 620px;
+    background-color: white ;
+    padding-top: 100px;
+}
+.teamh1{
+    text-align: center;
+}
+.nacrisferisat1{
+    text-align: center;
+    color: #898989;
+    font-size: 17px;
+}
+.chvenzangebi{
+    display: flex;
+    justify-content: center;
+}
+.cir{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+}
+.saxelebi{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sax{
+    margin: 0 auto;
+}
+.teamtxt{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tetxt{
+    margin: 0 auto;
+    text-align: center;
+    color: #898989;
+}
+.teamicn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#ticn{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+}
+#ticn1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.raa{
+    color: black;
+    margin: 0 auto;
+}
+.cous{
+    height: 680px;
+    width: 100%;
+    background: url("contact-us-image.png"), linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coussat{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+.coh{
+    text-transform: uppercase;
+    color: white;
+    font-size: 33px;
+}
+.coe{
+    text-align: center;
+    color: #898989;
+}
+.inp{
+    width: 100%;
+    height: 215px;
+    display: flex;
+    margin-top: 40px;
+}
+.pir{
+    width: 50%;
+    height: 215px;
+    display: block;
+}
+.pir1{
+    width: 100%;
+    padding-left: 280.6px;
+    display: block;
+    margin-bottom: 37px;
+}
+.meo{
+    width: 50%;
+    height: 215px;
+}
+.massage{
+    width: 455px;
+    height: 210px;
+    padding-bottom: 182px;
+}
+.rag{
+    width: 455px;
+    height: 45px;
+}
+.pir2{
+    padding-left: 280.6px;
+}
+.send{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sendm{
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.sendm:hover{
+    width: 270px;
+    font-size: 24px;
+    background-color: #a7a3a3;
+    border-radius: 8px;
+}
+
+/*
+
+455
+210
+
+
+
+1400
+680
+*/ 
+
+
+
+
+
